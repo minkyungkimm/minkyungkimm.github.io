@@ -20,7 +20,7 @@ text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : https://minkyungkimm.github.io # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : "" # does not include hostname
-title   : My coding
+title   : Mk coding
 description: > # this means to ignore newlines until "Language & timezone"
   Your Site Description
 
@@ -214,6 +214,9 @@ defaults:
       show_edit_on_github: true
       show_subscribe: true
       pageview: true
+  - scope:
+     path: "assets/images"
+     image: true
 
 
 ## => Plugins
